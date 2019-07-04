@@ -107,7 +107,7 @@ data-open="click" data-menu="vertical-menu-modern" data-col="2-columns">
                 <a class="menu-item" href="<?php echo base_url('Admin/Admin/indexSeminar') ?>">Tambah Seminar</a>
             </li>
             <li>
-                <a class="menu-item" href="#">Kelola Seminar</a>
+                <a class="menu-item" href="<?php echo base_url('Admin/Admin/kelolaSeminar') ?>">Kelola Seminar</a>
             </li>
           </ul>
         </li>

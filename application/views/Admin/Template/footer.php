@@ -23,5 +23,19 @@
   <!-- BEGIN PAGE LEVEL JS-->
   <script src="<?php echo base_url('app-assets/js/scripts/pages/dashboard-ecommerce.js') ?>" type="text/javascript"></script>
   <!-- END PAGE LEVEL JS-->
+
+   <script type="text/javascript" src="<?php echo base_url('assets/DataTables/js/jquery.dataTables.min.js')?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/DataTable/js/dataTables.bootstrap4.min.js')?>"></script>
+
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <!-- <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script> -->
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
+    <!-- END DATATABLES -->
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#example2').DataTable();
+    });
+</script>
 </body>
 </html>
